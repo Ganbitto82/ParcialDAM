@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="30dp">
 
     <TextView
         android:id="@+id/textNombre"
@@ -21,8 +22,28 @@
         android:ems="10"
         android:hint="@string/ingrese_Nombre"
         android:imeOptions="actionDone"
-        android:inputType="textEmailAddress"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Apellido" />
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="no"
+        android:ems="10"
+        android:hint="@string/ingrese_Apellido"
+        android:imeOptions="actionDone"
+        tools:ignore="TouchTargetSizeCheck" />
+    <TextView
+        android:id="@+id/textSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Lista" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -31,5 +52,11 @@
         android:spinnerMode="dropdown"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
         android:minHeight="24dp"/>
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
 
 </LinearLayout>

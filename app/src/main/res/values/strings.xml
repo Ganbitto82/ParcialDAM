@@ -2,4 +2,8 @@
     <string name="app_name">ParcialDAM</string>
     <string name="Nombre">Nombre</string>
     <string name="ingrese_Nombre">Ingrese su nombre</string>
+    <string name="ingrese_Apellido">Ingrese su apellido</string>
+    <string name="Apellido">Apelldo</string>
+    <string name="Spinner">Spinner</string>
+    <string name="Lista">Lista</string>
 </resources>
